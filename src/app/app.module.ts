@@ -13,11 +13,13 @@ import { ScrollingComponent } from './components/cdk/scrolling/scrolling.compone
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
+import { MatpracComponent } from './matprac/matprac.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ScrollingComponent
+    ScrollingComponent,
+    MatpracComponent
   ],
   imports: [
     BrowserModule,
